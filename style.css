@@ -1,0 +1,151 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.greyBackground {
+    background: rgb(204, 204, 204);
+}
+
+.body {
+    color: rgb(245, 237, 237);
+    margin: 0;
+}
+
+.change {
+    text-align: center;
+    background-color: rgb(204, 204, 204);
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.navigation__list {
+    border-bottom: 1px solid rgba(17, 17, 17, 0.555);
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px 20px;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.navigation__item {
+    font-size: 18px;
+    padding: 10px 10px;
+    margin: 10px 5px 10px 5px;
+    margin: 0 auto;
+}
+
+.navigation__link {
+    color: rgb(41, 41, 46);
+    text-decoration: none;
+}
+
+.navigation__link:visited {
+    color: rgb(41, 41, 46);
+}
+
+.navigation__link:focus {
+    outline: 1px solid rgb(41, 41, 46);
+}
+
+.navigation__link:hover {
+    color: rgb(114, 114, 114);
+    border-bottom: 1px solid;
+}
+
+.navigation__link:active {
+    color: rgb(0, 8, 126);
+
+}
+
+.header__title {
+    text-align: center;
+    font-family: 'Rubik Distressed', sans-serif;
+    font-weight: normal;
+    color: #222;
+}
+
+.section__header {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #222;
+}
+
+.header__photo {
+    border-radius: 30px;
+    -webkit-box-shadow: 13px -6px 35px -8px rgba(0, 76, 82, 1);
+    -moz-box-shadow: 13px -6px 35px -8px rgba(0, 76, 82, 1);
+    box-shadow: 13px -6px 35px -8px rgba(0, 76, 82, 1);
+}
+
+.header {
+    text-align: center;
+}
+
+.main {
+    padding: 0 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+.section__contents {
+    line-height: 1.5;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+.table {
+    font-family: "Lato"sans-serif;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.table__cell {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.table__caption {
+    caption-side: bottom;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.footer {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.body__footer {
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    background-color: rgb(204, 204, 204);
+}
+
+.table__cell--header {
+    background-color: rgb(21, 21, 104);
+    color: rgb(245, 207, 38);
+    font-weight: normal;
+    font-weight: bold;
+}
+
+.table__row:nth-child(even) {
+    background-color: rgb(255, 245, 111);
+}
+
+.table__row:hover {
+    background-color: rgb(255, 243, 174);
+}
